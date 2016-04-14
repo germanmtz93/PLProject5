@@ -1,0 +1,20 @@
+Seq. No.        2007 NAICS US Code      2007 NAICS US Title
+                
+3       1111    Oilseed and Grain Farming
+4       11111   Soybean Farming
+5       111110  Soybean Farming
+6       11112   Oilseed (except Soybean) Farming
+7       111120  Oilseed (except Soybean) Farming
+276     3111    Animal Food Manufacturing
+277     31111   Animal Food Manufacturing
+278     311111  Dog and Cat Food Manufacturing
+279     311119  Other Animal Food Manufacturing
+281     31121   Flour Milling and Malt Manufacturing
+1064    42341   Photographic Equipment and Supplies Merchant Wholesalers
+1065    423410  Photographic Equipment and Supplies Merchant Wholesalers
+1066    42342   Office Equipment Merchant Wholesalers
+1067    423420  Office Equipment Merchant Wholesalers
+1068    42343   Computer and Computer Peripheral Equipment and Software Merchant Wholesalers
+1435    4854    School and Employee Bus Transportation
+1436    48541   School and Employee Bus Transportation
+1437    485410  School and Employee Bus Transportation

@@ -1,0 +1,173 @@
+Created by PLY version 3.8 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> start
+Rule 1     start -> SEQ
+Rule 2     start -> farm
+Rule 3     start -> manu
+Rule 4     start -> whole
+Rule 5     start -> trans
+Rule 6     start -> empty
+Rule 7     data -> INTEGER INTEGER
+Rule 8     farm -> data FARM
+Rule 9     manu -> data MANU
+Rule 10    whole -> data WHOLE
+Rule 11    trans -> data TRANS
+Rule 12    empty -> <empty>
+
+Terminals, with rules where they appear
+
+FARM                 : 8
+INTEGER              : 7 7
+MANU                 : 9
+SEQ                  : 1
+TRANS                : 11
+WHOLE                : 10
+error                : 
+
+Nonterminals, with rules where they appear
+
+data                 : 8 9 10 11
+empty                : 6
+farm                 : 2
+manu                 : 3
+start                : 0
+trans                : 5
+whole                : 4
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . start
+    (1) start -> . SEQ
+    (2) start -> . farm
+    (3) start -> . manu
+    (4) start -> . whole
+    (5) start -> . trans
+    (6) start -> . empty
+    (8) farm -> . data FARM
+    (9) manu -> . data MANU
+    (10) whole -> . data WHOLE
+    (11) trans -> . data TRANS
+    (12) empty -> .
+    (7) data -> . INTEGER INTEGER
+
+    SEQ             shift and go to state 2
+    $end            reduce using rule 12 (empty -> .)
+    INTEGER         shift and go to state 5
+
+    whole                          shift and go to state 4
+    trans                          shift and go to state 6
+    farm                           shift and go to state 8
+    empty                          shift and go to state 7
+    manu                           shift and go to state 1
+    data                           shift and go to state 9
+    start                          shift and go to state 3
+
+state 1
+
+    (3) start -> manu .
+
+    $end            reduce using rule 3 (start -> manu .)
+
+
+state 2
+
+    (1) start -> SEQ .
+
+    $end            reduce using rule 1 (start -> SEQ .)
+
+
+state 3
+
+    (0) S' -> start .
+
+
+
+state 4
+
+    (4) start -> whole .
+
+    $end            reduce using rule 4 (start -> whole .)
+
+
+state 5
+
+    (7) data -> INTEGER . INTEGER
+
+    INTEGER         shift and go to state 10
+
+
+state 6
+
+    (5) start -> trans .
+
+    $end            reduce using rule 5 (start -> trans .)
+
+
+state 7
+
+    (6) start -> empty .
+
+    $end            reduce using rule 6 (start -> empty .)
+
+
+state 8
+
+    (2) start -> farm .
+
+    $end            reduce using rule 2 (start -> farm .)
+
+
+state 9
+
+    (8) farm -> data . FARM
+    (9) manu -> data . MANU
+    (10) whole -> data . WHOLE
+    (11) trans -> data . TRANS
+
+    FARM            shift and go to state 11
+    MANU            shift and go to state 14
+    WHOLE           shift and go to state 12
+    TRANS           shift and go to state 13
+
+
+state 10
+
+    (7) data -> INTEGER INTEGER .
+
+    FARM            reduce using rule 7 (data -> INTEGER INTEGER .)
+    MANU            reduce using rule 7 (data -> INTEGER INTEGER .)
+    WHOLE           reduce using rule 7 (data -> INTEGER INTEGER .)
+    TRANS           reduce using rule 7 (data -> INTEGER INTEGER .)
+
+
+state 11
+
+    (8) farm -> data FARM .
+
+    $end            reduce using rule 8 (farm -> data FARM .)
+
+
+state 12
+
+    (10) whole -> data WHOLE .
+
+    $end            reduce using rule 10 (whole -> data WHOLE .)
+
+
+state 13
+
+    (11) trans -> data TRANS .
+
+    $end            reduce using rule 11 (trans -> data TRANS .)
+
+
+state 14
+
+    (9) manu -> data MANU .
+
+    $end            reduce using rule 9 (manu -> data MANU .)
+
