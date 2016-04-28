@@ -98,7 +98,7 @@ parser = yacc.yacc()
 
 while True:
     try:
-        s = input('')
+        s = raw_input('')
     except EOFError:
         break
     parser.parse(s)

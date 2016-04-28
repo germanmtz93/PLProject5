@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6071a8f-4ccb-4ebc-9f23-18fe62d9561a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PLY/ply/__init__$py.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PLY/ply/lex$py.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PLY/ply/yacc$py.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PLY/PLYproj.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PLY/naics07.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PLY/parser.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PLY/parsetab.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PLY/ply/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PLY/ply/cpp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PLY/ply/ctokens.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PLY/ply/lex.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PLY/ply/yacc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PLY/ply/ygen.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sh.exe.stackdump" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PLY/PLYproj.py" afterPath="$PROJECT_DIR$/PLY/PLYproj.py" />
     </list>
     <ignored path="PLProject5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +38,28 @@
       <file leaf-file-name="PLYproj.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PLY/PLYproj.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3550914">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state vertical-scroll-proportion="3.2402089">
+              <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="naics07.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PLY/naics07.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parsetab.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PLY/parsetab.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,7 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -149,7 +156,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -772,11 +779,14 @@
       <workItem from="1459996571168" duration="246000" />
       <workItem from="1460508608967" duration="551000" />
       <workItem from="1460603933697" duration="538000" />
+      <workItem from="1460671933894" duration="108000" />
+      <workItem from="1461641555965" duration="656000" />
+      <workItem from="1461881074491" duration="91000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1335000" />
+    <option name="totallyTimeSpent" value="2190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -843,6 +853,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PLY/naics07.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PLY/parsetab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListComprehension/ListComprehension.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PLY/PLYproj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListComprehension/ListComprehension.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PLY/PLYproj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListComprehension/ListComprehension.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PLY/PLYproj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ListComprehension/ListComprehension.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -873,10 +947,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PLY/naics07.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PLY/parsetab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PLY/PLYproj.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3550914">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state vertical-scroll-proportion="3.2402089">
+          <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
           <folding />
         </state>
       </provider>
